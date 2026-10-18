@@ -12,7 +12,11 @@ public class MyBithday2 : MonoBehaviour
            Debug.Log("5-" + day); 
 
 
-          
+           if (day == 23)
+            {
+                
+                Debug.Log("It's my birthday");
+            }
             
         }
         
